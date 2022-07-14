@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 2px;
+    border-style: solid;
+    margin: 20px;
+    padding: 50px;
+    display: inline-block;
+}

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  background: rgb(3, 3, 3);
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 1px;
+}
+.banner {
+  top: 0;
+  left: 0;
+  height: 80vh;
+  background-image: url("../images/banner.jpg");
+  text-align: center;
+  justify-content: center;
+}
+.title {
+  padding: 8rem;
+  font-family: "PT Sans", sans-serif;
+  flex: auto;
+  position: relative;
+  font-size: 5rem;
+  color: #fff;
+}
+.container {
+  padding-top: 2rem;
+  height: auto;
+  background: #000;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.images {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  width: 550px;
+  height: 350px;
+}
+
+li {
+  list-style: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.sub-title {
+  padding: 2rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  flex: 50%;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1, 5rem;
+  padding-bottom: 2rem;
+}
+.row {
+  display: flex;
+}
+p {
+  color: #fff;
+  font-size: large;
+  line-height: 34px;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.testimonials {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  letter-spacing: 2px;
+}
+.paragraph {
+  padding: 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}

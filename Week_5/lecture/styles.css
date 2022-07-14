@@ -1,0 +1,68 @@
+#mydiv {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 1px solid black;   /*border styles*/
+}
+
+#mydiv:hover {
+    width: 200px;
+    height: 200px;
+    background: green;
+    border: 31px double yellowgreen;
+    transition: all 3s ease-in;   /* CSS transitions*/
+}
+
+
+@keyframes changeColour {
+    from {
+        background: yellow;
+    }
+
+    to {
+        background: green;
+    }
+}
+
+@keyframes changeColour2 {
+    0% {
+        background: yellow;
+    }
+
+    20% {
+        background: green;
+    }
+
+    40% {
+        background: blue;
+    }
+
+    60% {
+        background: red;
+    }
+
+    80% {
+        background: orange;
+    }
+
+    100% {
+        background: yellow;
+    }
+}
+
+#secdiv {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 1px solid black;   /*border styles*/
+    animation: changeColour 2s ease-in-out 5 reverse; /*animation styles*/
+}
+
+#thirddiv {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 1px solid black;   /*border styles*/
+    animation: changeColour2 4s linear infinite; /*animation styles*/
+}
+

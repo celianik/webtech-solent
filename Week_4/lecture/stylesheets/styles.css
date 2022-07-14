@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    width: 10 vw;
+    height: 10 vh;
+    background-image: url(../images/blue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: azure;
+}
+
+div {
+    border: 2px;
+    border-style: solid;
+    border-color: azure;
+    margin: 20px;
+    padding: 50px;
+    display: inline-block;
+}
+
+#left-div{
+    float: left;
+}
+
+#right-div{
+    float: right;
+}
+
+@media screen {
+    body {
+        margin: 10 vw;
+    }
+
+}
+
+@media print {
+    body {
+        margin: 0;
+    }
+}

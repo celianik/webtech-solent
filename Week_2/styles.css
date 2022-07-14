@@ -1,0 +1,23 @@
+body {
+    background-color: yellow;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color: red;
+    font-size: 1em;
+    text-align: center;
+    height: 200%;
+    width: auto;
+}
+
+#mypar {
+    font-weight: 800;
+    color:green;
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
