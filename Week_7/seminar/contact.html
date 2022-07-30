@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Hogwarts</title>
+  </head>
+  <body>
+    <div class="banner">
+      <h1 class="title">Welcome<br />to Hogwarts</h1>
+    </div>
+    <div class="container">
+      <div class="nav">
+        <li>
+          Home Page
+        </li>
+        <li>
+          Browse
+        </li>
+        <li>
+          About Us
+        </li>
+        <li>
+          Example Page 1
+        </li>
+        <li>
+          Example Page 2
+        </li>
+      </div>
+      
+      <form id="contact">
+        <label for="cName">Name:</label>
+        <input type="text" id="cName" name="cName" required> <br/>
+        <label for="cEmail">Email:</label>
+        <input type="email" id="cEmail" name="cEmail" required><br/>
+        <p>Which package is your query about?</p> <br/>
+        <input type="radio" id="ans1" name="answers" value="Standard">
+        <label for="ans1">Standard</label><br/>
+        <input type="radio" id="ans2" name="answers" value="Chosen">
+        <label for="ans2">The Chosen One Package</label> <br/>
+        <p>We may respond via an owl, on a scale of 1-10, how scared are you of owls?</p><br/>
+        <p>(10 is the most scared)</p><br/>
+        <input type="number" id="numOwl" name="numOwl" required><br/>
+        <label for="query">Please enter your query:</label><br/>
+        <input type="textarea" id="query" name="query" required><br/>
+        <input type="submit" id="subBtn" name="subBtn" value="Submit">
+      </form>
+
+      <div class="footer">
+        <div class="testimonials">
+          <h2>Testimonials</h2>
+        </div>
+      </div>
+      <div class="paragraph">
+        <p>
+          which included sloping lawns, flowerbeds, vegetable patches, as well
+          as a loch
+        </p>
+      </div>
+      <div class="paragraph">
+        <p>which included sloping lawns,</p>
+      </div>
+      <div class="paragraph">
+        <p>
+          which included sloping lawns, flowerbeds, vegetable patches, as well
+          as a loch
+        </p>
+      </div>
+    </div>
+    <script src="./contact.js"></script>
+  </body>
+</html>
