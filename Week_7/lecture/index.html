@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Validation</title>
+    </head>
+
+    <body>
+        <form target="_blank" id="frmExample">
+            <input type="text" id="readOnly" value="I am a readonly field" readonly> <br />
+            <input type="text" id="disabledField" value="I am a disabled field" disabled> <br />
+            <label for="userName">Input name: </label>
+            <input type="text" id="userName" name="userName" value="John" required> <br />
+            <label for="txtAge">Input age: </label>
+            <input type="number" id="txtAge" name="txtAge"> <br />
+            <label for="e-mail">Input e-mail: </label>
+            <input type="email" id="e-mail" name="e-mail"> <br />
+
+            <select id="cbxtype" name="type">
+                <option value="Car">Car</option>
+                <option value="Motorbike">Motorbike</option>
+                <option value="Lorry">Lorry</option>
+            </select> <br />
+
+            <input type="radio" id="testOne" name="test" value="first">
+            <label for="testOne">Test One</label> <br />
+            <input type="radio" id="testOne" name="test" value="first"> 
+            <label for="testTwo">Test Two</label> <br />
+            <input type="radio" id="testThree" name="test" value="third"> 
+            <label for="testThree">Test Three</label> <br />
+            
+            <label for="message">Write your comments: </label> <br />
+            <textarea id="message" name="message" rows="5" cols="10"> My Text </textarea> <br />
+
+            <input type="submit" value="Submit" id="subBtn">
+            <!-- <input type="button" value="Submit" id="subBtn"> -->
+            <!-- <button>Submit</button> -->
+            
+        </form>
+
+
+        <script src="./script.js"></script>
+    </body>
+</html>
