@@ -7,7 +7,6 @@ let q2RightBtn = document.getElementById("q2-rightBtn");
 let q3 = document.getElementById("q3");
 let q3LeftBtn = document.getElementById("q3-leftBtn");
 let q3RightBtn = document.getElementById("q3-rightBtn");
-
 let result = document.getElementById("result");
 
 q1LeftBtn.addEventListener("click", () => {
